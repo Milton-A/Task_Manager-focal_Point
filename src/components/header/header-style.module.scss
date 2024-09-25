@@ -1,0 +1,33 @@
+@import "../../styles/colors";
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  justify-content: space-between;
+  align-items: start;
+  margin-left: 56px;
+  margin-right: 56px;
+  margin-top: 24px;
+  padding: 0 0 24px 0;
+  border-bottom: 1px solid #d7dde9;
+}
+
+.title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter Tight";
+  letter-spacing: 2%;
+  line-height: 29.04px;
+  color: #000000;
+}
+
+.data {
+  color: #0000008a;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Inter Tight";
+  letter-spacing: 2%;
+  line-height: 19.36px;
+}

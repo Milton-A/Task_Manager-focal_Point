@@ -1,0 +1,45 @@
+@import "../../styles/colors";
+
+.button {
+  border-radius: 8px;
+  padding: 16px 24px 16px 24px;
+  gap: 8px;
+  border: none;
+  color: $white;
+  flex: 1;
+}
+
+.buttonGradient {
+  background: linear-gradient(to right, $bluePrimary, $blueTertiary);
+  font-weight: 500;
+  font-family: "Inter Tight";
+  font-size: 16px;
+  line-height: 19.36px;
+  letter-spacing: 2%;
+}
+.buttonGradientRed {
+  background: linear-gradient(to right, $linearLeftRed, $linearRightRed);
+  font-weight: 500;
+  font-family: "Inter Tight";
+  font-size: 16px;
+  line-height: 19.36px;
+  letter-spacing: 2%;
+}
+.buttonNormal {
+  background: $blueSecondary;
+  color: $textPrimary;
+  font-weight: 400;
+  font-family: "Inter Tight";
+  font-size: 16px;
+  line-height: 19.36px;
+  letter-spacing: 2%;
+}
+.buttonNormalRed {
+  background: $BgOff;
+  color: $textPrimary;
+  font-weight: 400;
+  font-family: "Inter Tight";
+  font-size: 16px;
+  line-height: 19.36px;
+  letter-spacing: 2%;
+}

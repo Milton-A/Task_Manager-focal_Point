@@ -1,0 +1,66 @@
+@import "../../styles/colors";
+
+.tasks {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 450px;
+  max-width: 450px;
+  max-height: 446px;
+  border: 1px solid $borderPrimary;
+  border-radius: 16px;
+  gap: 24px;
+  padding: 32px;
+  box-shadow: 0px 1px $dropShadow;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px dashed #eaecf0;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 16px;
+  width: 100%;
+}
+
+.task:hover {
+  background: #f7f9fd;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  letter-spacing: 2px;
+  color: #000000;
+  flex: 1;
+}
+.textFinished {
+  font-family: "Inter Tight";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  letter-spacing: 2px;
+  color: #0000008a;
+  text-decoration: line-through;
+  flex: 1;
+}
+
+.title {
+  font-family: "Inter Tight";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  letter-spacing: 2px;
+  color: #0000008a;
+}

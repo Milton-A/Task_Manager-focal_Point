@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap");
+
+@import "reset.scss";
+
+@import "colors";
+
+.blur {
+  filter: blur(2px);
+  transition: filter 0.1s ease-in-out;
+  -webkit-filter: blur(3px);
+  -webkit-transition: filter 0.1s ease-in-out;
+  -moz-transition: filter 0.1s ease-in-out;
+  -ms-transition: filter 0.1s ease-in-out;
+  -o-transition: filter 0.1s ease-in-out;
+}
+
+.container {
+  font-family: "Inter Tight";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+}
+
+.button {
+  margin-top: 24px;
+  display: flex;
+  width: 450px;
+}
